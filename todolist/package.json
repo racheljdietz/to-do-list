@@ -1,0 +1,31 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "a simple to do list",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/racheljdietz/to-do-list.git"
+  },
+  "author": "Rachel Dietz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/racheljdietz/to-do-list/issues"
+  },
+  "homepage": "https://github.com/racheljdietz/to-do-list#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "body-parser": "^1.19.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "knex": "^0.95.15",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "save": "^2.4.0"
+  }
+}
