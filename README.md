@@ -38,7 +38,7 @@ Creating a To-do List App with Node.js + Express and PostgreSQL database
 Install Postgres on your computer [here](https://www.postgresql.org/).
 
 Using Git Bash, run the following commands:
-- express `npm install express — save`
+- express `npm install express -- save`
 - ejs `npm install ejs --save`
 - knex `npm install knex`
 - pg `npm install pg`
